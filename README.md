@@ -2,7 +2,7 @@
 
 ## A secure & offline replacement for all your lists and sheets
 
-### Qucik Start
+### Quick Start
 
 1. Create a collection
 2. Add a primary key (optional) and other required keys

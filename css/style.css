@@ -1,0 +1,70 @@
+/* Global */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+input {
+  padding: 0.7em;
+  border-radius: 5px;
+  font-size: 0.5em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  padding: 0.7em;
+  border-radius: 5px;
+  font-size: 0.5em;
+}
+
+table {
+  overflow-x: auto;
+}
+
+th,
+td {
+  border: 0.01em solid lightgrey;
+  padding: 0.5em;
+}
+
+/* Sections */
+
+section#navSection {
+  flex: 1;
+}
+
+section#inputSection {
+  flex: 2;
+}
+
+section#viewSection {
+  flex: 8;
+  overflow-y: auto;
+}
+
+/* Custom elements */
+
+a.navItem {
+  color: blue;
+}
+
+a.collection {
+  display: inline-block;
+  background-color: antiquewhite;
+  border: 2px solid lightgrey;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.2em; 
+}
