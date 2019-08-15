@@ -19,6 +19,8 @@ input {
 }
 
 a {
+  font-size: 0.8em;
+  cursor: pointer;
   color: inherit;
   text-decoration: none;
 }

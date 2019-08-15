@@ -12,26 +12,47 @@
 
 <body>
 
-  <!-- Menu bar -->
   <section id="navSection">
     <h1>
-      <a class="navItem" href="../index.html">Back</a>
+      <a class="navItem" onclick="window.history.back()">Back</a>
       Quick Database
-      <a class="navItem" href="html/help.html">Help</a> </h1>
+      <a class="navItem" href="./help.html">Help</a> </h1>
   </section>
 
-  <!-- Input for new collection -->
   <section id="inputSection">
-    <!-- If no keys present in collection, show input for new keys -->
-    <!-- If keys already present, show input for each key -->
+
+    <div id="createSchemaSection" hidden>
+
+      <form>
+        <input type="text" placeholder="Name">
+      </form>
+
+      <button type="button" onclick="addAnotherName()">Add another</button>
+      <button type="button" onclick="createSchema()">Create</button>
+
+    </div>
+
+    <div id="addDataSection" hidden>
+
+    </div>
+
   </section>
 
-  <!-- Links for already present collections -->
   <section id="viewSection">
-    <!-- Show table view of data inside this collection -->
+    <span id="msg"></span>
+
+    <table id="dataTable" hidden>
+
+      <thead>
+        <tr><!-- Auto-populated --></tr>
+      </thead>
+
+      <tbody><!-- Auto-populated --></tbody>
+
+    </table>
+
   </section>
 
-  <script src="../js/collection.mjs"></script>
   <script src="../js/script.js"></script>
 
 </body>

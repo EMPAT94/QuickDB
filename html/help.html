@@ -14,7 +14,7 @@
 
   <section id="navSection">
     <h1>
-      <a class="navItem" href="../index.html">Back</a>
+      <a class="navItem" onclick="window.history.back()">Back</a>
       Quick Database
     </h1>
   </section>
@@ -27,20 +27,20 @@
 
     <h4>Quick Start</h4>
     <ol>
-      <li>Create a collection</li>
-      <li>Add a primary key (optional) and other required keys</li>
+      <li>Create a collection/ table / store</li>
+      <li>Create a schema - Add required keys / columns</li>
       <li>Start adding data as necessary</li>
     </ol>
 
     <h4>How it works</h4>
     <ul>
-      <li>QuickDB leverages the power of Index DB that comes with most modern browsers</li>
+      <li>QuickDB leverages the power of IndexedDB that comes with most modern browsers</li>
       <li>All your data is secure, since there is no server interaction besides site loading</li>
       <li>This means that not only is your data private, but the whole system works fully offline</li>
       <li>However, YOU are in charge of backing up your data regularly and keeping it safe</li>
     </ul>
 
-    <h4>Backup and Restore</h4>
+    <h4>Backup and Restore (Work in Progress)</h4>
     <ul>
       <li>Simply click "Backup" option for corresponding collection</li>
       <li>It will download a compressed file on your local machine</li>
